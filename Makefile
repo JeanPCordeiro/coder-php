@@ -1,5 +1,5 @@
 DOCKER_USERNAME ?= jpcordeiro
-APPLICATION_NAME ?= coder-kube
+APPLICATION_NAME ?= coder-php
 APPLICATION_RELEASE ?= latest
 
 info:
