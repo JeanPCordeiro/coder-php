@@ -4,8 +4,9 @@ FROM codercom/enterprise-base:ubuntu
 USER root
 ARG DEBIAN_FRONTEND=noninteractive 
 
-# Install PHP
+# Install PHP & MySQL
 RUN apt-get update -y && \
+    apt-get install -y mysql-client  && \
     apt-get install -y locales  && \
     apt-get install -y php  && \
     apt-get install -y apt-utils  && \
