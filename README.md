@@ -3,8 +3,10 @@
 # coder-php
 PHP image for coder template
 
-From codercom/enterprise-base:ubuntu  image, add PHP :
-
+From codercom/enterprise-base:ubuntuimage, add :
+  php and librairies
+  mysql client
+  composer
 
 All you need to work with PHP projects  !
 
